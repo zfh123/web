@@ -1,0 +1,32 @@
+{
+  "member": {
+    "birthday": false, //会员生日提醒
+    "offers": false,//会员优惠
+    "recharge": false,//会员充值
+    "needPassword": false,//会员消费需要密码
+    "editMoney": false //可以编辑会员余额 和 积分
+  },
+  "sales": {
+    "helper": true, // 销售完成时，显示找零提示
+    // 收银结算时，最终金额的零头处理方式 （cutZeroCent 抹零-分）  （cutZeroDime 抹零-角）（roundingCent 四舍五入 分）（roundingDime 四舍五入 角）
+    "remainder": "cutZeroCent",
+    "goodsLowestPrice": 0.95, // 单品的优惠上线
+    "orderLowestPrice": 0.95, // 订单的优惠上线
+    "offworkOrderVoid": true // 交接班后的订单是否允许作废
+  },
+  "receipt": {
+    "template": "", //收银小票模板
+    "autoPrint": true //自动打印收银小票
+  },
+  "refund": {
+    "template": "", //退货小票模板
+    "autoPrint": true  //自动打印退货小票
+  },
+  "stock": {
+    "byReceipt": false, //按采购单入库（入库前先输入采购单）
+    "beforeSelectSupplier": false, //入库前先选择供应商
+    "template": "", //入库小票模板
+    "autoPrint": true, // 自动打印入库小票
+    "editInventory": "value"  // 可以直接编辑库存
+  }
+}

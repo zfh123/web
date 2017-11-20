@@ -1,0 +1,82 @@
+@import url('material-icons/material-icons.css');
+@font-face {
+  font-family: KaiGenGothicSC;
+  src: url('../../../assets/font/SourceHanSansCN-思源黑体 简体中文版/SourceHanSansCN-Normal.woff') format("woff");
+}
+html{
+  font-size: 14px;
+}
+html,body{
+  font-family: 'SourceHanSansCN-Normal',KaiGenGothicSC !important;
+  background-color: #f7f7f7;
+}
+.material-icons {
+  transform: scale(1.5);
+}
+.btn{
+  border-radius: 0.15rem;
+}
+.btn .material-icons{
+  vertical-align: text-bottom;
+}
+
+
+
+button.flat {
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+}
+
+.custom-file:hover {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: none;
+}
+
+.custom-file:hover .custom-file-control::before {
+  border-top-color: #80bdff;
+  border-bottom-color: #80bdff;
+  border-right-color: #80bdff;
+}
+
+.custom-file.form-control {
+  padding: 0;
+}
+
+.custom-file.form-control .custom-file-control {
+  background-color: transparent;
+  border: none;
+}
+
+.custom-file-control:empty::after {
+  content: "请选择文件...";
+}
+
+.custom-file-control::before {
+  content: "浏览";
+}
+
+.xs-gutters {
+  margin-right: 0.25rem;
+  margin-left:  0.25rem;
+}
+
+.xs-gutters > .col,
+.xs-gutters > [class*="col-"] {
+  padding-right:  0.25rem;
+  padding-left: 0.25rem;
+}
+nav.navbar{
+  height: 53px;
+}
+.btn-outline-light{
+  color: inherit !important;
+}
+.btn-outline-light:hover{
+  color: inherit !important;;
+}
+.badge{
+  vertical-align: 0.15rem;
+}

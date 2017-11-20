@@ -1,0 +1,62 @@
+@import url('./bootstrap.css');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.divider {
+  background-color: rgba(0, 0, 0, 0.12);
+  border: none;
+  display: block;
+  height: 1px;
+  flex: 1;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.font-delete {
+  text-decoration: line-through
+}
+
+@import url('./other.css');
+@import url('./animate.css');
+@import url('../theme/default.css');
+
+#nprogress {
+  position: relative;
+  z-index: 9999;
+}
+
+.input-group .custom-select {
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+
+.input-group .custom-select + .input-group-addon:not(:first-child) {
+  border-left: 0;
+}
+
+.input-group .custom-select {
+  padding: 0.5rem 0.75rem;
+  height: calc(2.215rem + 2px);
+}
+
+.input-group .custom-select:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group .custom-select:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

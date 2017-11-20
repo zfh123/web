@@ -1,0 +1,30 @@
+{
+  "name": "11wlw_pos",
+  "appName": "零售宝-物恋科技",
+  "version": "0.1.3",
+  "description": "免费零售收银管理系统",
+  "main": "http://127.0.0.1:8089/",
+  "nodejs": true,
+//  "node-main":"../../src-server/default.js",
+  "window": {
+    "title": "vue-nw-seed",
+    "toolbar": false,
+    "width": 566,
+    "height": 341,
+    "resizable": false,
+    "frame": false,
+    "show": true,
+    "kiosk": false,
+    "icon": "/static/logo.png",
+    "show_in_taskbar": true
+  },
+  "chromium-args": "--mixed-context --kiosk-printing--mixed-contex --enable-accelerated-compositing --enable-gpu-plugin --enable-gpu-rendering --enable-web-notification-custom-layouts --load-extension=../vue-devtools",
+  "crash_report_url": "程序崩溃发送的报告地址  multipart/form-data",
+  "js-flags": "--harmony --expose-gc",
+  "node-remote": "<all_urls>",
+  "permissions": [
+    "usb",
+    "fileSystem",
+    "videoCapture"
+  ]
+}
